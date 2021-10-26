@@ -203,6 +203,12 @@ padding: 50px 0px ;
 	padding: 0px 0px 24px 0px;
 	margin-bottom: 18px;
 }
+.review__text::before{
+	content: open-quote " ";
+}
+.review__text::after{
+	content: close-quote " ";
+}
 .avatar {
 	width: 48px;
 	height: 48px;
