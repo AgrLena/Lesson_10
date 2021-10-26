@@ -233,6 +233,10 @@ padding: 50px 0px ;
 	margin: -70px 0px 0px 0px;
 	vertical-align: top;
 	text-align: right;
+	border-radius:40px;
+}
+.impact__img{
+	border-radius:40px;
 }
 .impact__header{
 	width: 411px;
