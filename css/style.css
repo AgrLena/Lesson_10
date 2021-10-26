@@ -1,0 +1,170 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap&subset=cyrillic-ext");
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+img {
+  vertical-align: top;
+}
+html,
+body {
+
+  height: 100%;
+}
+html {
+  font-size: 16px; /* по умолчанию */
+}
+body {
+  line-height: 1;
+  }
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  font-family: "Roboto", serif;
+}
+/* ------------------------------ */
+.wrapper {
+	background:#CDCDCD;
+	max-width: 1440px;
+	font-size: 0px;
+}
+.promise {
+	padding: 0px 0px 153px 0px;
+}
+.container {
+	max-width: 1020px;
+	margin: 0px auto;
+}
+.promise_header {
+	margin-bottom: 68px;
+}
+.header-item__subtitle {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	background:url(../img/icon/OverlineMark.svg) 0 -2px no-repeat;
+	color: #5D62B5;
+	padding: 0px 0px 0px 33px;
+	margin:0px 0px 33px 0px;
+}
+.header-item__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #000000;
+	margin:0px 0px 78px 0px;
+}
+.promise__items {
+	
+}
+.promise__item:not(:last-child) {
+	margin: 0px 24px 0px 0px;
+}
+.item {
+	display: inline-block;
+}
+.item__image{
+	margin: 0px 23px 0px 0px;
+}
+.item__body {
+	width: 235px;
+	display: inline-block;
+}
+.item__title {
+	margin: 0px 0px 20px 0px;
+	font-size: 19px;
+	font-weight: 900;
+	line-height: 26px;
+	color: #F2726F;
+}
+.item__text {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+}
+.appointment {
+	background: url(../img/tennisBall.png)1260px 113px no-repeat, url(../img/pup.png) 3px 44px no-repeat, url(../img/Blob3.png) -116px -246px no-repeat, url(../img/StylizeCircles.png) -31px 122px no-repeat, #25CEC9;
+	padding: 112px 210px 169px 819px;
+}
+.appointment__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #FFFFFF;
+	margin-bottom: 45px;
+}
+.appointment__button {
+}
+.link {
+	display: inline-block;
+	background:#F2726F;
+	padding: 20px 25px;
+	color: #fff;
+	border-radius:10px;
+	text-align: center;
+	letter-spacing: 0.15px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 12px;
+}
+.services {
+}
+.servises__header-item {
+	margin-bottom: 36px;
+}
+.services__item_style-card {
+	background-color:#fff;
+	text-align: center;
+	border-radius: 20px;
+	padding: 50px 44px 50px 43px;
+	margin-bottom: 24px;
+}
+.services__item_style-card:not(:nth-of-type(3), :nth-of-type(6)) {
+	margin-right:  24px;
+}
+.services__item_style-card:hover{
+	box-shadow: 0px 8px 16px rgba(38, 38, 38, 0.24),	0px 16px 24px rgba(38, 38, 38, 0.2);
+}
+.item__image_margin{
+	margin: 0px 0px 33px 0px;
+}
+.item__body_block{
+	display: block;
+}
+.servisces__button {
+	text-align: center;
+}
+
