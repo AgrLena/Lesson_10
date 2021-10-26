@@ -58,11 +58,11 @@ body {
 	margin: 0px auto;
 	font-size: 0px;
 }
-._container {
+.promise__wrapper, .services__wrapper, .customers__wrapper, .impact__wrapper {
 	max-width: 1020px;
 	margin: 0px auto;
 }
-.promise{
+.promise__wrapper{
 padding: 50px 0px ;
 }
 .promise_header {
@@ -113,7 +113,7 @@ padding: 50px 0px ;
 	letter-spacing: 0.15px;
 	color: #4B4B4B;
 }
-.wrapper__some-block {
+.some-block {
 	background: url(../img/tennisBall.png)1260px 113px no-repeat,url(../img/Line1.svg)  750px 0px no-repeat, url(../img/pup.png) 3px 44px no-repeat, url(../img/Blob3.png) 0px 0px no-repeat, url(../img/StylizeCircles.png) -31px 122px no-repeat, #29C3BE;
 }
 .some-block{
@@ -138,10 +138,10 @@ padding: 50px 0px ;
 	font-weight: 700;
 	font-size: 12px;
 }
-.wrapper__services{
+.services{
 	background:url(../img/Blob.png) 817px -500px  no-repeat;
 }
-.services {
+.services__wrapper {
 	padding: 50px 0px;
 }
 .servises__header-item {
@@ -172,10 +172,10 @@ padding: 50px 0px ;
 .servisces__button {
 	text-align: center;
 }
-.wrapper__customers{
+.customers{
 	background: url(../img/Blob4.png) 0 -1020px no-repeat;
 }
-.customers{
+.customers__wrapper{
 	padding: 50px 0px 120px 0px;
 }
 .customers__block{
@@ -223,14 +223,11 @@ padding: 50px 0px ;
 	color: #F2726F;
 	padding: 12px 0px;
 }
-.wrapper__impact {
+.impact {
 	background: url(../img/Blob2.png) 630px 0 no-repeat, #29C3BE;
 }
-.impact{
+.impact__wrapper{
 	padding: 0px 0px 50px 0px;
-}
-.impact__header {
-	color:#fff;
 }
 .impact__image{
 	width: 100%;
