@@ -254,6 +254,7 @@ padding: 50px 0px ;
 }
 .item-impact{
 	display: inline-block;
+	color:#FFF;
 }
 .impact__item:not(:last-child){
 	margin:0px 24px 0px 0px;
