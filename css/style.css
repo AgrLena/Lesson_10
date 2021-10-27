@@ -248,22 +248,36 @@ padding: 50px 0px ;
 	color:#fff;
 	background: url(../img/icon/white-mark.svg)0px -4px no-repeat;
 }
-.header-item__title_white {
-	color: #fff;
-}
+
 .impact__item:not(:last-child){
 	margin:0px 24px 0px 0px ;
 }
-.item__image_margin-11{
+.item-impact{
+	display: inline-block;
+}
+.impact__item:not(:last-child){
+	margin:0px 24px 0px 0px;
+}
+.item-impact__image {
+	width: 66px;
+	display: inline-block;
 	margin: 0px 11px 0px 0px;
 }
-.item__body_width{
+.item-impact__body {
+	display: inline-block;
 	width: 150px;
 }
-.item__title_white-margin-3{
-	color:#fff;
+.item-impact__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
 	margin-bottom: 3px;
 }
-.item__text_violet{
+.item-impact__text {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
 	color: #5D62B5;
 }
+	
