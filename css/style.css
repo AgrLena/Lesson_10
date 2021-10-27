@@ -116,7 +116,7 @@ padding: 50px 0px ;
 .some-block {
 	background: url(../img/tennisBall.png)1260px 113px no-repeat,url(../img/Line1.svg)  750px 0px no-repeat, url(../img/pup.png) 3px 44px no-repeat, url(../img/Blob3.png) 0px 0px no-repeat, url(../img/StylizeCircles.png) -31px 122px no-repeat, #29C3BE;
 }
-.some-block{
+.some-block__wrapper{
 	padding: 112px 210px 169px 819px;
 }
 .some-block__title {
