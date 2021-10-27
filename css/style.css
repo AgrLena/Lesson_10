@@ -52,7 +52,7 @@ body {
   font-family: "Roboto", serif;
 }
 /* ------------------------------ */
-.wrapper {
+.wrapper__container {
 	background: #F5F5F5;
 	max-width: 1440px;
 	margin: 0px auto;
